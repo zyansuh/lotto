@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Dices, Sparkles } from "lucide-react";
 import { LottoNumbers } from "./types/lotto";
 import { generateLottoDraw } from "./utils/lottoGenerator";

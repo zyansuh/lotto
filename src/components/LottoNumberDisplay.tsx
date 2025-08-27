@@ -1,4 +1,4 @@
-import React from "react";
+import { FC } from "react";
 import { getBallColor } from "../utils/lottoGenerator";
 
 interface LottoNumberDisplayProps {
@@ -7,7 +7,7 @@ interface LottoNumberDisplayProps {
   showBonus?: boolean;
 }
 
-const LottoNumberDisplay: React.FC<LottoNumberDisplayProps> = ({
+const LottoNumberDisplay: FC<LottoNumberDisplayProps> = ({
   numbers,
   bonusNumber,
   showBonus = true,

@@ -1,4 +1,4 @@
-import React from "react";
+import { FC } from "react";
 import { LottoNumbers } from "../types/lotto";
 import LottoNumberDisplay from "./LottoNumberDisplay";
 
@@ -7,7 +7,7 @@ interface LottoHistoryProps {
   onClearHistory: () => void;
 }
 
-const LottoHistory: React.FC<LottoHistoryProps> = ({
+const LottoHistory: FC<LottoHistoryProps> = ({
   history,
   onClearHistory,
 }) => {
